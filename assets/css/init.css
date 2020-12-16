@@ -1,0 +1,257 @@
+/* 初始化CSS */
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+fieldset,
+img {
+  border: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+iframe {
+  border: none;
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  display: block;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "微软雅黑", "Arial Narrow";
+}
+
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+
+select,
+input {
+  vertical-align: middle;
+}
+
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="button"],
+textarea,
+button {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+
+textarea {
+  resize: none;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+body {
+  color: #333333;
+  font-family: "微软雅黑", "Arial Narrow", HELVETICA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #ffffff;
+  font-size: 12px;
+}
+
+
+
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+.clearit {
+  clear: both;
+  height: 0;
+  font-size: 0;
+  overflow: hidden;
+}
+
+a {
+  color: #666;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #666;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #F66546;
+  text-decoration: none;
+}
+
+
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+.icon2 {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/*模块盒子*/
+.wrap {
+  width: 100%;
+  min-width: 1260px;
+  position: relative;
+}
+
+.wrap-in {
+  width: 1260px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.wrap-in-white {
+  background-color: #fff;
+}
+
+
+.noscroll::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.noscroll::-webkit-scrollbar-button {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.noscroll::-webkit-scrollbar-track {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.noscroll::-webkit-scrollbar-track-piece {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.noscroll::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.noscroll::-webkit-scrollbar-corner {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.noscroll::-webkit-scrollbar-resizer {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.noscroll::-webkit-scrollbar {
+  width: 2;
+  height: 10px;
+}
+
+.myscroll::-webkit-scrollbar {
+  /*滚动条整体样式*/
+  width: 10px;
+  /*高宽分别对应横竖滚动条的尺寸*/
+  height: 1px;
+}
+
+.myscroll::-webkit-scrollbar-thumb {
+  /*滚动条里面小方块*/
+  border-radius: 10px;
+  /* -webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2); */
+  background: #e2e2e2;
+}
+
+.myscroll::-webkit-scrollbar-track {
+  /*滚动条里面轨道*/
+  /* -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.2); */
+  border-radius: 10px;
+  background: #fff;
+}
+
+::-webkit-scrollbar {
+  /*隐藏滚轮*/
+  display: none;
+}
+
+
+.w260 {
+  width: 260px !important;
+}
+
+.w443 {
+  width: 443px !important;
+}
+
+.w160 {
+  width: 160px !important;
+}
